@@ -9,7 +9,7 @@ public class Progression {
     private static final int PROGRESSION_LENGTH = 8;
 
     private static final String DESCRIPTION =
-            "What number is missing in this progression?";
+            "What number is missing in the progression?";
 
 
     private static String[] makeProgression(int first, int step, int length) {
