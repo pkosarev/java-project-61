@@ -30,8 +30,6 @@ public class Progression {
         String[] progression = makeProgression(first, step, PROGRESSION_LENGTH);
         String answer = progression[hiddenMemberIndex];
 
-        // Для формирования строки вопроса желательно использовать готовые и простые решения
-        // вместо ручного обхода циклом
         progression[hiddenMemberIndex] = "..";
         String question = String.join(" ", progression);
 
