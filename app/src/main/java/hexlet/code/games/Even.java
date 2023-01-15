@@ -11,7 +11,7 @@ public class Even {
     private static final int MAX = 100;
 
     private static final String DESCRIPTION =
-            "Answer 'yes' if number even otherwise answer 'no'.";
+            "Answer 'yes' if the number is even, otherwise answer 'no'.";
 
 
     private static boolean isEven(int number) {
